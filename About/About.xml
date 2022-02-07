@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+  <name>Sheepskin</name>
+  <description>Sheep now produce sheepskin when butchered. Sheepskin is slightly more protective and insulating than sheep wool, at the cost of... well... the sheep.
+
+Vanilla sheep are boring. Sure, you get wool, but there are better wools. Sure, you get meat, but you get dull plainleather when you slaughter them. Why not get a special product out of them instead?
+
+[h1]Compatibility[/h1]
+[list]
+[*] Safe to add to an existing save
+[*] Not safe to remove from an existing save UNLESS you have absolutely no sheepskin items or buildings (and even then, no guarantees)
+[*] Other mods? Probably.
+[/list]
+
+Balance suggestions are welcome, as are bug reports. Leave me a note in the comments.
+
+Source is available on [url=https://github.com/heatherathebyne/sheepskin-rimworld]GitHub[/url].
+</description>
+  <author>HeatherAthebyne</author>
+  <supportedVersions>
+    <li>1.3</li>
+  </supportedVersions>
+  <packageId>heatherathebyne.sheepskin</packageId>
+</ModMetaData>
