@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef ParentName="LeatherBase">
+    <defName>Leather_Sheepskin</defName>
+    <label>sheepskin</label>
+    <description>The hide of a sheep, with wool still attached. Tougher and better at temperature regulation than wool alone.</description>
+    <graphicData>
+      <color>(255,237,219)</color>
+    </graphicData>
+    <statBases>
+      <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+      <MarketValue>2.8</MarketValue>
+      <!-- relevant implicit values:
+        <StuffPower_Armor_Sharp>0.81</StuffPower_Armor_Sharp>
+        <StuffPower_Armor_Blunt>0.24</StuffPower_Armor_Blunt>
+        <StuffPower_Armor_Heat>1.5</StuffPower_Armor_Heat>
+        <StuffPower_Insulation_Heat>16</StuffPower_Insulation_Heat>
+      -->
+      </statBases>
+      <stuffProps>
+        <color>(255,237,219)</color>
+        <commonality>0.05</commonality>
+        <statFactors>
+          <Beauty>1.6</Beauty>
+        </statFactors>
+      </stuffProps>
+    </ThingDef>
+
+  <ThingDef ParentName="FurnitureWithQualityBase">
+    <defName>Sheepskin_Rug</defName>
+    <label>sheepskin rug</label>
+    <thingClass>Building</thingClass>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <clearBuildingArea>false</clearBuildingArea>
+    <description>A cozy sheepskin rug. Looks good on the floor or on furniture.</description>
+    <graphicData>
+      <texPath>sheepskin-north</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costList>
+      <Leather_Sheepskin>32</Leather_Sheepskin>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <canPlaceOverWall>true</canPlaceOverWall>
+    </building>
+    <passability>Standable</passability>
+    <fillPercent>0</fillPercent>
+    <statBases>
+      <MaxHitPoints>35</MaxHitPoints>
+      <WorkToBuild>450</WorkToBuild>
+      <Flammability>1</Flammability>
+      <Beauty>5</Beauty>
+      <Mass>1</Mass>
+    </statBases>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <Comfort>0.05</Comfort>
+        </statOffsets>
+        <maxSimultaneous>2</maxSimultaneous>
+        <maxDistance>6</maxDistance>
+      </li>
+    </comps>
+    <designationCategory>Furniture</designationCategory>
+  </ThingDef>
+</Defs>

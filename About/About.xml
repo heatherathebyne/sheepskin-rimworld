@@ -2,9 +2,11 @@
 
 <ModMetaData>
   <name>Sheepskin</name>
-  <description>Sheep now produce sheepskin when butchered. Sheepskin is slightly more protective and insulating than sheep wool, at the cost of... well... the sheep.
+  <description>Sheep now produce sheepskin leather when butchered. Sheepskin is slightly more protective and insulating than sheep wool, at the cost of... well... the sheep.
 
 Vanilla sheep are boring. Sure, you get wool, but there are better wools. Sure, you get meat, but you get dull plainleather when you slaughter them. Why not get a special product out of them instead?
+
+You can use sheepskin like any other leather in garments and furniture. You can also make a new furniture item: sheepskin rugs. These rugs are beautiful, and up to two of them can link to a bed to provide additional comfort. They can even be placed on beds, if you want to keep your colonists' toes extra warm.
 </description>
   <author>HeatherAthebyne</author>
   <supportedVersions>
