@@ -14,4 +14,7 @@ You can use sheepskin like any other leather in garments and furniture. You can 
     <li>1.4</li>
   </supportedVersions>
   <packageId>heatherathebyne.sheepskin</packageId>
+  <loadAfter>
+    <li>VanillaExpanded.VFECore</li>
+  </loadAfter>
 </ModMetaData>
